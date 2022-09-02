@@ -236,7 +236,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 	ShowWindow(hwnd, SW_SHOW);
 
 	MSG	msg = {};
-	float clearColor[] = { 1.0f, 1.0f, 0.0f, 1.0f }; //黄色
+	float clearColor[] = { 1.0f, 1.0f, 1.0f, 1.0f }; //白色
 
 	while (true) {
 		if (PeekMessage(&msg, nullptr, 0, 0, PM_REMOVE)) {
